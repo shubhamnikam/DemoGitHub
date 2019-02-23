@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
         sendToast();
-        anotherToast();
+        changedToast();
         extraToast();
     }
 
@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Thank You", Toast.LENGTH_SHORT).show();
     }
 
-    private void anotherToast() {
-        Toast.makeText(this, "One More Time Thank you", Toast.LENGTH_SHORT).show();
+    private void changedToast() {
+        Toast.makeText(this, "changed Toast to again Thank you", Toast.LENGTH_SHORT).show();
     }
     private void extraToast() {
         Toast.makeText(this, "Extra Thank you", Toast.LENGTH_SHORT).show();
