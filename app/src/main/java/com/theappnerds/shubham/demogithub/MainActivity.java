@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         Substraction substraction = new Substraction(15, 6);
         Multplication multplication = new Multplication(5, 6);
 
+        String a ="Hi";
+
         sendToast();
         anotherToast();
     }
