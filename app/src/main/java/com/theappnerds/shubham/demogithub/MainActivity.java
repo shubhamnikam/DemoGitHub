@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         
         sendToast();
         anotherToast();
+        extraToast();
     }
 
     private void sendToast() {
@@ -21,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void anotherToast() {
         Toast.makeText(this, "One More Time Thank you", Toast.LENGTH_SHORT).show();
+    }
+    private void extraToast() {
+        Toast.makeText(this, "Extra Thank you", Toast.LENGTH_SHORT).show();
     }
 }
