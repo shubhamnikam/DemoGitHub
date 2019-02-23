@@ -12,9 +12,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
         sendToast();
+        anotherToast();
     }
 
     private void sendToast() {
         Toast.makeText(this, "Thank You", Toast.LENGTH_SHORT).show();
+    }
+
+    private void anotherToast() {
+        Toast.makeText(this, "One More Time Thank you", Toast.LENGTH_SHORT).show();
     }
 }
