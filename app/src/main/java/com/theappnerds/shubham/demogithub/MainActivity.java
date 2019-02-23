@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
+        Addition addition = new Addition(5, 6);
         sendToast();
         anotherToast();
     }
