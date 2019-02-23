@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Addition addition = new Addition(5, 6);
+        Substraction substraction = new Substraction(15, 6);
+
         sendToast();
         anotherToast();
     }
