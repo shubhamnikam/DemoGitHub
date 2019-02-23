@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Multplication multplication = new Multplication(5, 6);
 
         String a ="Hi";
+        String b ="Hello";
 
         sendToast();
         anotherToast();
