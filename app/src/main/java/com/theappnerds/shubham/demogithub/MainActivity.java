@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         String a ="Hi";
         String b ="Hello";
+        String c ="how are you?";
 
         sendToast();
         changedToast();
